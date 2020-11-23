@@ -1,0 +1,263 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.parallax {
+	background-image: url("IMG/KBBQ.jpg");
+	min-height: 400px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header div {
+	background-color: #4C3C49;
+	padding: 2px;
+}
+
+header ul div p{
+	color: white;
+}
+
+header ul{
+	list-style-type: none;
+	background-color: #333333;
+	text-align: center;
+}
+
+li a {
+	border: none;
+	display: inline-flex;
+	width: 200px;
+	color: white;
+	padding: 19px;
+	text-decoration: none;
+	transition-duration: 0.4s;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
+}
+
+article div{
+	float: left;
+}
+
+.logo{
+	margin: 8px 20px 5px 20px;
+	float: left;
+	width: 80px;
+	height: 40px;
+	display: block;
+}
+
+.menu{
+	background-color: #813442;
+	display: flex;
+	text-align: center;
+	color: #813442;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 9;
+}
+
+.backcolor{
+	background-color: #4C3C49;
+}
+
+#bigmain{
+	width: 100%;
+	margin-top: 55px;
+	height: 700px;
+	object-fit: cover;
+	opacity: 0.4;
+}
+
+/*Takeaway picture*/
+
+#takeawaypic{
+	background-image: url("IMG/Takeaway.jpg");
+	margin-top: 55px;
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+	opacity: 0.4;
+}
+
+/*Takeaway picture end*/
+
+.textpic{
+	color: white;
+	position: absolute;
+	font-size: 100px;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#undertextpic{
+	color: white;
+	position: absolute;
+	font-size: 40px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.knappen{
+	padding: 15px 40px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	position: absolute;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	background-color: #8F3936;
+	transition-duration: 0.4s;
+	color:white;
+	z-index: 8;
+}
+
+.knappen:hover{
+	background-color: white;
+	color:black;
+}
+
+#knapp1{
+	left: 45%;
+}
+
+#knapp2{
+	left: 55%;
+}
+
+section div{
+	width: 400px;
+	height: 100%;
+	display: inline-flex;
+	color: white;
+}
+
+section div h2 {
+	margin-top: 30px;
+}
+
+section div p {
+	margin-top: 30px;
+}
+
+.otherstuff{
+	background-color: #1E242B;
+	height: 300px;
+	display: flex;
+    justify-content: center;
+    text-align:center;
+}
+
+/* take away meny */
+#takeawaymeny{
+	height:1000px;
+}
+
+.takeawayfood{
+	margin-top: 50px;
+	display: inline-block;
+	padding: 50px;
+	list-style-type: none;
+}
+
+section div li{
+	margin-top: 20px;
+}
+/* take away meny end*/
+
+.centerplz{
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+}
+
+.block{
+	background: none;
+	margin: -150px;
+}
+
+article p{
+	margin-left: 15px;
+}
+
+article li{
+	margin: 15px;
+	overflow: hidden;
+}
+
+#pic2{
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+	opacity: 0.4;
+	background-image: url("IMG/BBQ_1.jpg");
+}
+
+.textpic2{
+	color: white;
+	position: absolute;
+	font-size: 100px;
+	top: 140%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#undertextpic2{
+	color: white;
+	position: absolute;
+	font-size: 40px;
+	top: 147%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#otherotherstuff{
+	background-color: #813442;
+	overflow: hidden;
+}
+
+#times{
+	margin-top: 170px;
+	margin-left: 400px;
+	font-size: 25px;
+	list-style-type: none;
+	overflow: hidden;
+	color: white;
+}
+
+#map{
+	float:right;
+	margin-right: 200px;
+}
+
+.footinfo{
+	margin-top: 50px;
+	display: inline-block;
+	width: 400px;
+	height: 170px;
+}
+
+.block2{
+	background: none;
+	margin: 50px;
+}
+
+#foot{
+	background-color: #4C3C49;
+	display: flex;
+    justify-content: center;
+    text-align:center;
+	color:white;
+}
